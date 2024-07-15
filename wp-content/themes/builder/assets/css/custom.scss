@@ -135,10 +135,11 @@
 	}
 
 	.agent {
-		background-color: #fff;
-		box-shadow: 1px 1px 6px rgb(0 0 0 / 6%);
+		box-shadow: 1px 1px 10px rgb(0 0 0 / 10%);
 		border-radius: 15px;
 		padding: 20px;
+		background: linear-gradient(to bottom, #fff 82%, #ccc 129%);
+		border: solid 1px #fff;
 	}
 
 	.avatar {
