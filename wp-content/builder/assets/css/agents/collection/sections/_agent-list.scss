@@ -1,0 +1,111 @@
+.ms-new-agents-page{
+  #flex-agent-content{
+    padding-top: 20px;
+    .gwr{
+      width: 90%;
+      max-width: 1520px;
+      margin: 0 auto;
+      #flex-agent-list{
+        margin: 0 -15px;
+        .flex-agent-item{
+          padding: 0 15px;
+          .idx-card{
+            height: 100%;
+            overflow: visible;
+            .idx-card-title{
+              padding: 10px 10px 0px 10px;
+              height: auto;
+              text-align: center;
+              font-size: 20px;
+              position: relative;
+              cursor: pointer;
+            }
+
+            .idx-card-content{
+              height: auto;
+              border: 0;
+              .idx-card-img{
+                overflow: hidden;
+                &:before {
+                  background-color: rgba(0, 0, 0, 0.15);
+                }
+
+                img{
+                  transition: all .4s;
+                }
+              }
+
+              .idx-card-description{
+                display: none;
+              }
+            }
+
+            .idx-card-btn-action{
+              display: none;
+            }
+
+            .idx-card-footer{
+              position: relative;
+              opacity: 1;
+              bottom: 0;
+              background: #FFF;
+              padding-bottom: 15px;
+              .idx-card-contact{
+                border: 0;
+                height: auto !important;
+                a{
+                  color: #737373;
+                  font-size: 15px;
+                  text-align: center;
+                  margin: 2px 0;
+                  transition: all .3s;
+                  &:before{
+                    display: none;
+                  }
+                  &:hover{
+                    color: #333;
+                    text-decoration: underline;
+                  }
+                }
+              }
+
+              .idx-card-social{
+                height: auto;
+                transition: none;
+                padding: 0 !important;
+                .idx-social-link{
+                  background-color: #FFF;
+                  margin: 0;
+                  &:hover{
+                    box-shadow: none;
+                  }
+                }
+              }
+            }
+
+            &:hover{
+              .idx-card-content{
+                .idx-card-img{
+                  img{
+                    transform: scale(1.03);
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        @media screen and (min-width: 640px){
+          display: flex;
+          flex-wrap: wrap;
+          .flex-agent-item{
+            float: none;
+            .idx-card{
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

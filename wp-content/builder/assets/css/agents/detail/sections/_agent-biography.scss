@@ -1,0 +1,35 @@
+.agent-template-default{
+  #flex-agent-information{
+    .flex-wrap-information{
+      .flex-agent-description{
+        .idx-ag-content{
+          margin: 0;
+          overflow: visible;
+          position: relative;
+          height: auto;
+          padding: 15px 0;
+
+          * {
+            font-size: 15px;
+            line-height: 1.6;
+            text-align: initial;
+          }
+
+          h2, h3, h4, h5, h6{
+            font-weight: 600;
+            font-size: 18px;
+            margin: 10px 0;
+          }
+
+          p{
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      #btn-read{
+        display: none;
+      }
+    }
+  }
+}

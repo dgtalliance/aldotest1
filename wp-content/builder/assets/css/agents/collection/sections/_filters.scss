@@ -1,0 +1,75 @@
+.ms-new-agents-page{
+  #agents-list{
+    padding-bottom: 100px;
+    .wp-filters-agents{
+      background-color: #FFF;
+      .gwr{
+        width: 90%;
+        max-width: 1520px;
+      }
+
+      .directory{
+        li{
+          a{
+            background-color: #FFF;
+            &:hover{
+              background-color: #333;
+              color: #FFF;
+            }
+            &.btn-all{
+              background-color: #eaeaea;
+              color: #333;
+              transition: all .3s;
+              &:hover{
+                background-color: #333;
+                color: #FFF;
+              }
+            }
+
+            &.active{
+              background-color: #333;
+              color: #FFF;
+            }
+          }
+        }
+      }
+
+      .bg-form-agent {
+        background-color: #FFF;
+        margin-top: 10px;
+        border: 1px solid #e8e8e8;
+        border-radius: 4px;
+        overflow: hidden;
+        @media screen and (min-width: 1024px){
+          margin-top: 0;
+        }
+        input[type=text],
+        input[type=search]{
+          height: 45px;
+          border: 0;
+          font-size: 15px;
+        }
+
+        .icon-search {
+          width: 45px;
+          height: 45px;
+          background-color: #eaeaea;
+          transition: all .3s;
+          &:before{
+            color: #333;
+            content: "\e922";
+            font-size: 18px;
+          }
+
+          &:hover{
+            background-color: #333;
+            color: #FFF;
+            &:before{
+              color: #FFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}

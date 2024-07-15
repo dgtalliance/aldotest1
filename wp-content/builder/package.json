@@ -1,0 +1,29 @@
+{
+  "name": "builder",
+  "version": "2.0.1",
+  "description": "Hi. I'm a starter theme called builder.",
+  "author": "IDXBoost",
+  "license": "ISC",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "https://github.com/dgtalliance/builder#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgtalliance/builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dgtalliance/builder/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^6.2.0",
+    "@wordpress/stylelint-config": "^20.0.1",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0"
+  },
+  "scripts": {
+    "build": "gulp"
+  }
+}
