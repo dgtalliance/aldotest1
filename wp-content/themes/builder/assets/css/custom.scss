@@ -17,7 +17,7 @@
 	}
 
 	.breadcrumb {
-		margin: 0;
+		margin: 0 0px 15px 0;
 		padding: 0;
 		font-size: 14px;
 		li {
@@ -42,6 +42,7 @@
 		font-size: 28px;
 		line-height: 35px;
 		margin-bottom: 12px;
+		font-weight: bold;
 	}
 
 	.details {
@@ -164,6 +165,7 @@
 		h3 {
 			margin: 0;
 			color: #006adc;
+			font-weight: bold;
 		}
 		small {
 			text-transform: uppercase;

@@ -41,15 +41,47 @@ get_header();
 
 <div class="agent-results">
     <div class="container">
-        <div class="agents">
-            <div class="agent">
 
+
+
+        <?php
+        $agents = array(
+            array(
+                'agent' => 'Nathan Nocholson',
+                'avatar' => 'https://i.pravatar.cc/150?img=1',
+            ), 
+            array(
+                'agent' => 'Jhon Doe',
+                'avatar' => 'https://i.pravatar.cc/150?img=2',
+            ),
+            array(
+                'agent' => 'Margo Trevino',
+                'avatar' => 'https://i.pravatar.cc/150?img=3',
+            ),
+            array(
+                'agent' => 'Halle Burns',
+                'avatar' => 'https://i.pravatar.cc/150?img=4',
+            ),
+            array(
+                'agent' => 'Anne Montgomery',
+                'avatar' => 'https://i.pravatar.cc/150?img=5',
+            ),
+            
+        );
+    ?>
+
+        <div class='agents'>
+            <?php foreach ($agents as $agent) : ?>
+
+
+            <div class="agent">
                 <div class="avatar">
-                    <img src="https://i.pravatar.cc/300" alt="Larico" loading="lazy" width='64' height='64' />
+                    <img src="<?php echo $agent['avatar']; ?>" alt="<?php echo $agent['name']; ?>" loading="lazy"
+                        width='64' height='64' />
                 </div>
                 <div class="details">
                     <div class="name">
-                        <h3>Nathan Nocholson</h3>
+                        <h3><?php echo $agent['agent']; ?></h3>
                         <small>trending</small>
                     </div>
 
@@ -84,7 +116,10 @@ get_header();
 
                 </div>
             </div>
+            <?php endforeach; ?>
         </div>
+
+
     </div>
 </div>
 
