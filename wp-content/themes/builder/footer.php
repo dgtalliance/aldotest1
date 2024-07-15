@@ -161,7 +161,9 @@ function googleTranslateInit() {
 
 <?php wp_footer(); ?>
 
-<!-- test 15/07/2024 -->
+
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
+
 </body>
 
 </html>
