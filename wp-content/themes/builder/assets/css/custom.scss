@@ -19,8 +19,8 @@
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			-webkit-transform: translate(-112%, -50%);
-			transform: translate(-112%, -50%);
+
+			transform: translate(-50%, -50%);
 			background: #1594ff;
 			background: radial-gradient(
 				circle,
@@ -29,9 +29,13 @@
 			);
 			z-index: 0;
 			border-radius: 100%;
-			-webkit-filter: blur(150px);
 			filter: blur(150px);
 			opacity: 0.5;
+		}
+
+		.agent {
+			position: relative;
+			z-index: 2;
 		}
 	}
 
@@ -39,6 +43,9 @@
 		position: absolute;
 		left: 50px;
 		bottom: 50px;
+		z-index: 2;
+		display: flex;
+		gap: 12px;
 
 		button {
 			height: 5px;
