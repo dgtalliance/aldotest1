@@ -3,6 +3,26 @@
 #hero {
 	.item {
 		min-height: 100svh;
+		background-color: #e2e2e2;
+		display: grid;
+		place-content: center;
+	}
+
+	.slide-bullets {
+		position: absolute;
+		left: 50px;
+		bottom: 50px;
+
+		button {
+			height: 5px;
+			width: 30px;
+			background-color: #ccc;
+			transition: all 0.3s ease-in-out;
+
+			&.gs-bullet-active {
+				background-color: #000;
+			}
+		}
 	}
 }
 

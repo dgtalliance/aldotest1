@@ -162,11 +162,11 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
                         </div>
                         <div class="socials">
                             <a href="#" class="social-icon i-prime-twitter" title="X" target="_blank" rel="nofollow">
-                                <span>Facebook</span>
+                                <span>x</span>
                             </a>
                             <a href="#" class="social-icon i-prime-facebook" title="facebook" target="_blank"
                                 rel="nofollow">
-                                <span>Twitter</span>
+                                <span>facebook</span>
                             </a>
                             <a href="#" class="social-icon i-prime-instagram" title="Instagram" target="_blank"
                                 rel="nofollow">
