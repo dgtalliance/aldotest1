@@ -141,8 +141,10 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
 
             <div class="item">
                 <div class="agent">
-                    <h1>Matthew Martinez</h1>
-                    <h2>Top Luxury Real Estate Agent</h2>
+                    <div class="name">
+                        <h1>Matthew Martinez</h1>
+                        <h2>Top Luxury Real Estate Agent</h2>
+                    </div>
                     <img class='avatar' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png"
                         alt="">
                     <div class="right-info">

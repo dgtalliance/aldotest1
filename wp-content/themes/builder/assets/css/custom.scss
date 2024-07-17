@@ -6,6 +6,7 @@
 		background-color: #e2e2e2;
 		display: grid;
 		place-content: center;
+		position: relative;
 
 		&:before {
 			content: "";
@@ -36,6 +37,9 @@
 		.agent {
 			position: relative;
 			z-index: 2;
+
+			display: flex;
+			align-items: center;
 		}
 	}
 
@@ -64,6 +68,7 @@
 		color: #fff;
 		display: grid;
 		place-content: center;
+		z-index: 2;
 		span {
 			display: none;
 		}
