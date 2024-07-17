@@ -41,12 +41,12 @@
 
     <?php wp_head();?>
 </head>
-<?php $body_class = array( "ib-wrap-full-width" ); ?>
+<?php $body_class = array( "ms-float-header ib-wrap-full-width" ); ?>
 
 <body <?php body_class( $body_class ); ?>>
     <!-- GTM scripts inside body -->
     <?php do_action('idx_gtm_body'); ?>
-    <header id="header" class="ms-header ms-bottom-shadow">
+    <header id="header" class="ms-header ms-bottom-shadow headerColor">
         <div class="ms-wrap-header">
             <div class="ms-top-header">
                 <!-- INICIO REDES SOCIALES -->
