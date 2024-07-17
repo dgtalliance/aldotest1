@@ -1,19 +1,19 @@
 (function ($) {
 	// Home slide
-	var $homeSlide = $(".homeSlide");
+	var $homeSlide = $(".slide");
 	if ($homeSlide.length) {
 		$homeSlide.greatSlider({
 			type: "fade",
 			autoplay: true,
 			navSpeed: 1000,
 			lazyLoad: true,
-			nav: true,
-			bullets: false,
+			nav: false,
+			bullets: true,
 			items: 1,
 			autoDestroy: true,
 			layout: {
 				bulletDefaultStyles: false,
-				wrapperBulletsClass: "clidxboost-gs-wrapper-bullets",
+				wrapperBulletsClass: "slide-bullets",
 				resizeClass: "ms-resize",
 				arrowPrevContent: "<span>Prev</span>",
 				arrowNextContent: "<span>Next</span>",
