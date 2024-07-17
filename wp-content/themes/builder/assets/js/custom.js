@@ -1,3 +1,45 @@
+// Home slide
+var $homeSlide = $(".homeSlide");
+if ($homeSlide.length) {
+	$homeSlide.greatSlider({
+		type: "fade",
+		autoplay: true,
+		navSpeed: 1000,
+		lazyLoad: true,
+		nav: true,
+		bullets: false,
+		items: 1,
+		autoDestroy: true,
+		layout: {
+			bulletDefaultStyles: false,
+			wrapperBulletsClass: "clidxboost-gs-wrapper-bullets",
+			resizeClass: "ms-resize",
+			arrowPrevContent: "<span>Prev</span>",
+			arrowNextContent: "<span>Next</span>",
+		},
+
+		onInited: function () {
+			var $a = 0;
+			var $similar = $(".clidxboost-gs-wrapper-bullets");
+			var $bulletBtn = $similar.find(".gs-bullet");
+			if ($bulletBtn.length) {
+				$bulletBtn.each(function (index) {
+					var label = "Bullet " + (index + 1);
+					$a += 1;
+					$(this).text($a);
+					$(this).attr("aria-label", label);
+				});
+			}
+
+			var $slideArrows = $(".slide-arrows button");
+			$slideArrows.each(function (index) {
+				var label = index === 0 ? "Previous" : "Next";
+				$(this).attr("aria-label", label);
+			});
+		},
+	});
+}
+
 document.querySelector(".more").addEventListener("click", function () {
 	const button = this;
 	const details = document.querySelector(".details");

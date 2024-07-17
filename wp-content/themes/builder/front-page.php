@@ -29,7 +29,7 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
 <main>
     <section id="welcome" class="ms-section ms-animate">
 
-        <div class="ms-slider">
+        <div class="homeSlide ms-slider">
 
             <picture class="ms-layer">
                 <source media="(max-width: 640px)"
