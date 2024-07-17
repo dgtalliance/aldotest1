@@ -6,12 +6,12 @@
 	// animations
 	.gs-item-slider {
 		.avatar {
-			transform: translateY(30px);
+			opacity: 0;
 			transition: all 0.3s ease-in-out;
 		}
 		&.gs-item-active {
 			.avatar {
-				transform: translateY(0);
+				opacity: 1;
 			}
 		}
 	}
