@@ -3,6 +3,19 @@
 #hero {
 	background-color: #e2e2e2;
 
+	// animations
+	.gs-item-slider {
+		.avatar {
+			transform: translateY(30px);
+			transition: all 0.3s ease-in-out;
+		}
+		&.gs-item-active {
+			.avatar {
+				transform: translateY(0);
+			}
+		}
+	}
+
 	.agent {
 		min-height: 100svh;
 
@@ -145,6 +158,12 @@
 		}
 	}
 
+	.gs-container-navs {
+		width: 90%;
+		max-width: 1500px;
+		position: relative;
+		margin: auto;
+	}
 	.slide-bullets {
 		position: absolute;
 		left: 50px;
