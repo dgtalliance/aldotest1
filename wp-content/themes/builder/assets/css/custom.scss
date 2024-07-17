@@ -6,6 +6,33 @@
 		background-color: #e2e2e2;
 		display: grid;
 		place-content: center;
+
+		&:before {
+			content: "";
+			display: block;
+			--ms-shadow-ancho: 37vw;
+			--ms-shadow-ancho-limite: 1920px;
+			width: var(--ms-shadow-ancho);
+			height: var(--ms-shadow-ancho);
+			max-width: var(--ms-shadow-ancho-limite);
+			max-height: var(--ms-shadow-ancho-limite);
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-112%, -50%);
+			transform: translate(-112%, -50%);
+			background: #1594ff;
+			background: radial-gradient(
+				circle,
+				#0d9bff 0%,
+				rgba(71, 96, 255, 0.4) 100%
+			);
+			z-index: 0;
+			border-radius: 100%;
+			-webkit-filter: blur(150px);
+			filter: blur(150px);
+			opacity: 0.5;
+		}
 	}
 
 	.slide-bullets {
