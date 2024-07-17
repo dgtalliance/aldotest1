@@ -39,6 +39,48 @@
 		}
 	}
 
+	.socials {
+		a {
+			display: grid;
+			position: relative;
+			width: 42px;
+			height: 42px;
+			display: grid;
+			place-content: center;
+			gap: 20px;
+			span {
+				display: none;
+			}
+		}
+	}
+
+	.more {
+		width: 54px;
+		height: 54px;
+		background-color: #000;
+		position: absolute;
+		right: 50px;
+		bottom: 50px;
+		color: #fff;
+		display: grid;
+		place-content: center;
+		span {
+			display: none;
+		}
+		&:after {
+			content: "";
+			display: block;
+			--un-icon: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 24 24' width='1.2em' height='1.2em' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath fill='currentColor' d='M12.75 11.25V5a.75.75 0 0 0-1.5 0v6.25H5a.75.75 0 0 0 0 1.5h6.25V19a.76.76 0 0 0 .75.75a.75.75 0 0 0 .75-.75v-6.25H19a.75.75 0 0 0 .75-.75a.76.76 0 0 0-.75-.75Z'/%3E%3C/svg%3E");
+			-webkit-mask: var(--un-icon) no-repeat;
+			mask: var(--un-icon) no-repeat;
+			-webkit-mask-size: 100% 100%;
+			mask-size: 100% 100%;
+			background-color: currentColor;
+			color: inherit;
+			width: 1.2em;
+			height: 1.2em;
+		}
+	}
 	.slide-bullets {
 		position: absolute;
 		left: 50px;
