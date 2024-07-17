@@ -40,13 +40,20 @@
 
 		.name {
 			flex: 1;
+			position: relative;
 		}
 		.avatar {
 			margin-top: auto;
 			flex: 2;
+			position: relative;
+
+			img {
+				display: block;
+			}
 		}
 		.right-info {
 			flex: 1;
+			position: relative;
 		}
 
 		.socials {

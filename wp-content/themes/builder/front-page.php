@@ -96,8 +96,9 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
                     <h1>Matthew Martinez</h1>
                     <h2>Top Luxury Real Estate Agent</h2>
                 </div>
-                <img class='zi-2 avatar ' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png"
-                    alt="">
+                <div class="zi-2 avatar">
+                    <img class='' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
+                </div>
                 <div class="zi-2 right-info">
                     <div class="infos">
                         <div class="info">
