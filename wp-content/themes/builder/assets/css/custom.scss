@@ -4,8 +4,8 @@
 	.agent {
 		min-height: 100svh;
 		background-color: #e2e2e2;
-		display: grid;
-		place-content: center;
+		display: flex;
+		align-items: center;
 		position: relative;
 
 		&:before {
@@ -39,6 +39,14 @@
 		}
 
 		.name {
+			flex: 1;
+		}
+		.avatar {
+			margin-top: auto;
+			flex: 2;
+		}
+		.right-info {
+			flex: 1;
 		}
 
 		.socials {
