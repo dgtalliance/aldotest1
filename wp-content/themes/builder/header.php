@@ -47,6 +47,9 @@
     <!-- GTM scripts inside body -->
     <?php do_action('idx_gtm_body'); ?>
 
+
+    <header id="header"></header>
+
     <?php /* 
     <header id="header" class="ms-header ms-bottom-shadow ">
         <div class="ms-wrap-header">
