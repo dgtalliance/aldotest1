@@ -48,6 +48,14 @@
 			flex: 1;
 			position: relative;
 			text-align: right;
+
+			h1 {
+				font-size: 2.5rem;
+			}
+			h2 {
+				color: #898989;
+				font-size: 1.5rem;
+			}
 		}
 		.avatar {
 			margin-top: auto;
@@ -66,16 +74,39 @@
 			align-items: center;
 			gap: 30px;
 			justify-content: space-between;
+			.infos {
+				display: grid;
+				gap: 16px;
+			}
+
+			h3 {
+				font-weight: bold;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				font-size: 0.8rem;
+			}
+
+			p {
+				color: #898989;
+			}
 		}
 
 		.socials {
+			display: grid;
+			gap: 14px;
 			a {
-				position: relative;
 				width: 42px;
 				height: 42px;
 				display: grid;
 				place-content: center;
-				gap: 20px;
+				background-color: #ccc;
+				border-radius: 50%;
+				transition: all 0.3s ease-in-out;
+
+				&:hover {
+					background-color: #000;
+					color: #fff;
+				}
 
 				span {
 					display: none;
