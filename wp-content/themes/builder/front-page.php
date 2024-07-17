@@ -1,65 +1,38 @@
 <?php 
 get_header(); 
-
-/*DECLARAMOS LA VARIABLE GENERAL PARA LAS IMAGENES TEMPORALES*/
+ 
 $temporalImage = builder_get_assets_path()."/images/temp.png";
-
-/**
-* Aqui podemos declarar variables que nos ayuden a mejorar el performance al momento de cargar el site en un dispositivo mobil
-* lo que debemos hacer es usar la validacion interna de wordpress "wp_is_mobile" y asignamos nuestras condiciones, podemos generar
-* todas las variables que necesitemos segun nuestro proyecto Ejemplo:
-* if (wp_is_mobile()) {
-*   $videoWelcome = "url de mi video principal en una resolución ideal para ser vista en celualres/tablets";
-*   $imagenWelcome = "url de mi imagen principal en una resolución ideal para ser vista en celualres/tablets";
-* }else{
-*   $videoWelcome = "url de mi video principal en una buena resolución para ser visto en PC";
-*   $imagenWelcome = "url de mi imagen principal en una buena resolución para ser vista en PC";
-* }
-**/
-
-//if (wp_is_mobile()) {
-//  $imagenWelcome = builder_get_assets_path()."/images/home/ms-layer-min.jpg";
-//}else{
-//  $imagenWelcome = builder_get_assets_path()."/images/home/ms-layer.jpg";
-//}
+ 
 ?>
 
 
 
 <main>
-    <section id="welcome" class="ms-section ms-animate">
+    <section id="hero" class="ms-section ms-animate">
 
-        <div class="homeSlide ms-slider">
+        <div class="slide">
 
+            <div class="item">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/home/Matt.png" alt="">
+            </div>
+            <div class="item">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/home/Matt.png" alt="">
+            </div>
+            <div class="item">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/home/Matt.png" alt="">
+            </div>
+
+            <?php /* 
             <picture class="ms-layer">
                 <source media="(max-width: 640px)"
                     srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer-min.webp" type="image/webp">
-                <source media="(max-width: 640px)"
-                    srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer-min.jpg" type="image/png">
-                <source srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.webp" type="image/webp">
-                <img src="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.jpg" width="340" height="546"
-                    alt="IDXBoost">
+            <source media="(max-width: 640px)"
+                srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer-min.jpg" type="image/png">
+            <source srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.webp" type="image/webp">
+            <img src="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.jpg" width="340" height="546"
+                alt="IDXBoost">
             </picture>
-
-            <picture class="ms-layer">
-                <source media="(max-width: 640px)"
-                    srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer-min.webp" type="image/webp">
-                <source media="(max-width: 640px)"
-                    srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer-min.jpg" type="image/png">
-                <source srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.webp" type="image/webp">
-                <img src="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.jpg" width="340" height="546"
-                    alt="IDXBoost">
-            </picture>
-
-            <picture class="ms-layer">
-                <source media="(max-width: 640px)"
-                    srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer-min.webp" type="image/webp">
-                <source media="(max-width: 640px)"
-                    srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer-min.jpg" type="image/png">
-                <source srcset="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.webp" type="image/webp">
-                <img src="<?php echo builder_get_assets_path(); ?>/images/home/ms-layer.jpg" width="340" height="546"
-                    alt="IDXBoost">
-            </picture>
+            */ ?>
 
             <!--
       ACTIVAR SI NECESITAS MOSTRAR VIDEO DE FONDO
