@@ -41,7 +41,7 @@
 
     <?php wp_head();?>
 </head>
-<?php $body_class = array( "ib-wrap-full-width" ); ?>
+<?php $body_class = array( "ms-float-header ib-wrap-full-width" ); ?>
 
 <body <?php body_class( $body_class ); ?>>
     <!-- GTM scripts inside body -->

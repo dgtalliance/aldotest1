@@ -13,13 +13,13 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
         <div class="slide">
 
             <div class="item">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/home/Matt.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
             </div>
             <div class="item">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/home/Matt.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
             </div>
             <div class="item">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/home/Matt.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
             </div>
 
             <?php /* 
