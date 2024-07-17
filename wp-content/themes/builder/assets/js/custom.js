@@ -4,7 +4,7 @@
 	if ($homeSlide.length) {
 		$homeSlide.greatSlider({
 			type: "fade",
-			autoplay: true,
+			autoplay: false,
 			navSpeed: 1000,
 			lazyLoad: true,
 			nav: false,

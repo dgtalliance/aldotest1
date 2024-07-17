@@ -11,14 +11,17 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
     <section id="hero" class="ms-section ms-animate">
 
         <div class="slide agents">
+
+
             <div class="agent">
-                <div class="name">
+                <div class="name zi-2">
                     <h1>Matthew Martinez</h1>
                     <h2>Top Luxury Real Estate Agent</h2>
                 </div>
-                <img class='avatar' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png"
-                    alt="">
-                <div class="right-info">
+                <div class="zi-2 avatar">
+                    <img class='' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
+                </div>
+                <div class="zi-2 right-info">
                     <div class="infos">
                         <div class="info">
                             <h3>Lorem</h3>
@@ -48,17 +51,20 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
 
                     </div>
                 </div>
-                <a href="#" class="more"><span>More</span></a>
+                <a href="#" class="zi-2 more"><span>More</span></a>
             </div>
 
+
+
             <div class="agent">
-                <div class="name">
+                <div class="name zi-2">
                     <h1>Matthew Martinez</h1>
                     <h2>Top Luxury Real Estate Agent</h2>
                 </div>
-                <img class='avatar' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png"
-                    alt="">
-                <div class="right-info">
+                <div class="zi-2 avatar">
+                    <img class='' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
+                </div>
+                <div class="zi-2 right-info">
                     <div class="infos">
                         <div class="info">
                             <h3>Lorem</h3>
@@ -88,8 +94,10 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
 
                     </div>
                 </div>
-                <a href="#" class="more"><span>More</span></a>
+                <a href="#" class="zi-2 more"><span>More</span></a>
             </div>
+
+
 
             <div class="agent">
                 <div class="name zi-2">
