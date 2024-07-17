@@ -28,15 +28,7 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
 
 <main>
     <section id="welcome" class="ms-section ms-animate">
-        <div id="intro">
-            <h1 class="ms-title">Brickell & Downtown <span>Miami Condos</span></h1>
-            <h2 class="ms-subtitle">#1 resource for brickell & downtown miami condos</h2>
-            <div class="ms-wrap-btn">
-                <a href="#" class="ms-btn" title="Buy a Condo"><span>Buy a Condo</span></a>
-                <a href="#" class="ms-btn" title="List your unit"><span>List your unit</span></a>
-            </div>
-            <?php echo do_shortcode('[flex_autocomplete]'); ?>
-        </div>
+
         <div class="ms-slider">
 
             <picture class="ms-layer">
