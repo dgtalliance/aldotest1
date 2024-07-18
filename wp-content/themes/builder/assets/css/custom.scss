@@ -4,6 +4,9 @@ body:not(.home) #header {
 }
 #header {
 	z-index: 2;
+	.container {
+		position: relative;
+	}
 }
 .hamburger {
 	background-color: #000;
@@ -11,7 +14,10 @@ body:not(.home) #header {
 	height: 52px;
 	border-radius: 50%;
 	display: grid;
+	align-content: center;
 	gap: 4px;
+
+	padding: 13px;
 	&:before,
 	&:after {
 		content: "";
@@ -23,6 +29,17 @@ body:not(.home) #header {
 	&:after {
 		width: 60%;
 	}
+
+	span {
+		display: none;
+	}
+}
+
+.container {
+	padding: 0 15px;
+	width: 95%;
+	max-width: 1170px;
+	margin: auto;
 }
 
 // HOME PAGE
@@ -255,13 +272,6 @@ body:not(.home) #header {
 	a {
 		color: inherit;
 		text-decoration: none;
-	}
-
-	.container {
-		padding: 0 15px;
-		width: 95%;
-		max-width: 1170px;
-		margin: auto;
 	}
 
 	.breadcrumb {

@@ -50,9 +50,11 @@
 
     <header id="header">
 
-        <button class="hamburger">
-            <span>Menu</span>
-        </button>
+        <div class="container">
+            <button class="hamburger">
+                <span>Menu</span>
+            </button>
+        </div>
 
     </header>
 
