@@ -48,7 +48,13 @@
     <?php do_action('idx_gtm_body'); ?>
 
 
-    <header id="header"></header>
+    <header id="header">
+
+        <button class="hamburger">
+            <span>Menu</span>
+        </button>
+
+    </header>
 
     <?php /* 
     <header id="header" class="ms-header ms-bottom-shadow ">
