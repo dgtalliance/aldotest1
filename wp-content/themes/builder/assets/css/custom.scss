@@ -17,7 +17,7 @@ body:not(.home) #header {
 	display: grid;
 	align-content: center;
 	gap: 4px;
-
+	position: relative;
 	padding: 13px;
 	&:before,
 	&:after {
@@ -33,6 +33,13 @@ body:not(.home) #header {
 
 	span {
 		display: none;
+	}
+}
+.home {
+	@media (min-width: 1024px) {
+		.hamburger {
+			top: 30px;
+		}
 	}
 }
 
@@ -219,7 +226,7 @@ body:not(.home) #header {
 	}
 	.slide-bullets {
 		position: absolute;
-		left: 50px;
+		left: 0px;
 		bottom: 50px;
 		z-index: 2;
 		display: flex;
