@@ -60,7 +60,7 @@ body:not(.home) #header {
 		.avatar {
 			opacity: 0;
 			transition: all 0.8s ease-in-out;
-			transform: translateY(-10px);
+			transform: scale(1.1);
 		}
 		&.gs-item-active {
 			.agent:before {
@@ -68,7 +68,7 @@ body:not(.home) #header {
 			}
 			.avatar {
 				opacity: 1;
-				transform: translateY(0);
+				transform: scale(1);
 			}
 		}
 	}
