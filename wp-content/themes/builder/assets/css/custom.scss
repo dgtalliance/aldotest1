@@ -4,6 +4,7 @@ body:not(.home) #header {
 }
 #header {
 	z-index: 2;
+	padding: 12px 0;
 	.container {
 		position: relative;
 	}
@@ -22,7 +23,7 @@ body:not(.home) #header {
 	&:after {
 		content: "";
 		display: block;
-		height: 3px;
+		height: 2px;
 		background-color: #fff;
 		width: 100%;
 	}
@@ -36,9 +37,8 @@ body:not(.home) #header {
 }
 
 .container {
-	padding: 0 15px;
-	width: 95%;
-	max-width: 1170px;
+	width: 90%;
+	max-width: 1500px;
 	margin: auto;
 }
 
@@ -109,14 +109,19 @@ body:not(.home) #header {
 		.name {
 			flex: 1;
 			position: relative;
-			text-align: right;
 
 			h1 {
 				font-size: 2.5rem;
+				font-weight: bold;
 			}
 			h2 {
 				color: #898989;
-				font-size: 1.5rem;
+				font-size: 1.1rem;
+				margin-bottom: 12px;
+			}
+			p {
+				line-height: 1.6;
+				margin-bottom: 30px;
 			}
 		}
 		.avatar {
@@ -153,11 +158,11 @@ body:not(.home) #header {
 		}
 
 		.socials {
-			display: grid;
+			display: flex;
 			gap: 14px;
 			a {
-				width: 42px;
-				height: 42px;
+				width: 28px;
+				height: 28px;
 				display: grid;
 				place-content: center;
 				background-color: #ccc;
@@ -246,8 +251,8 @@ body:not(.home) #header {
 		mask-size: 100% 100%;
 		background-color: currentColor;
 		color: inherit;
-		width: 1.2em;
-		height: 1.2em;
+		width: 1em;
+		height: 1em;
 	}
 }
 
