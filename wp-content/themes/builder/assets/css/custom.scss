@@ -26,6 +26,7 @@ body:not(.home) #header {
 		height: 2px;
 		background-color: #fff;
 		width: 100%;
+		transition: all 0.3s ease-in-out;
 	}
 	&:after {
 		width: 60%;
@@ -33,6 +34,14 @@ body:not(.home) #header {
 
 	span {
 		display: none;
+	}
+	&:hover {
+		&:before {
+			width: 60%;
+		}
+		&:after {
+			width: 100%;
+		}
 	}
 }
 .home {
