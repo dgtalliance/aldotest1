@@ -286,9 +286,39 @@ body:not(.home) #header {
 		}
 	}
 
-	@media (max-width: 767px) {
-		.agent .avatar img {
-			max-height: 40vh;
+	@media (max-width: 1023px) {
+		.agent {
+			align-content: center;
+			.name {
+				text-align: center;
+				h1 {
+					font-size: 1.5rem;
+				}
+				h2 {
+					font-size: 0.9em;
+					margin-bottom: 6px;
+				}
+				.socials {
+					justify-content: center;
+					margin-bottom: 12px;
+					transform: scale(0.7);
+				}
+			}
+			.avatar img {
+				max-height: 40vh;
+			}
+
+			.info-area {
+				justify-content: center;
+				text-align: center;
+				padding-top: 20px;
+				h3 {
+					font-size: 0.7rem;
+				}
+				p {
+					font-size: 0.8rem;
+				}
+			}
 		}
 	}
 
