@@ -90,11 +90,13 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
                     <h1>Matthew Martinez</h1>
                     <h2>Top Luxury Real Estate Agent</h2>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum deserunt expedita
-                        inventore ab harum dolores deleniti, beatae laborum consectetur nostrum dignissimos quo odit
-                        explicabo incidunt veritatis architecto animi. Quam?
-                    </p>
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum deserunt expedita
+                            inventore ab harum dolores deleniti, beatae laborum consectetur nostrum dignissimos quo odit
+                            explicabo incidunt veritatis architecto animi. Quam?
+                        </p>
+                    </div>
 
                     <div class="socials">
                         <a href="#" class="social-icon i-prime-twitter" title="X" target="_blank" rel="nofollow">
