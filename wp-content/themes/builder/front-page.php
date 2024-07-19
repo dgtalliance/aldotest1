@@ -67,7 +67,114 @@ $temporalImage = builder_get_assets_path()."/images/temp.png";
                 <a href="#" class="zi-2 more"><span>More</span></a>
             </div>
 
+            <div class="agent">
 
+                <div class="name zi-2">
+                    <h1>Matthew Martinez</h1>
+                    <h2>Top Luxury Real Estate Agent</h2>
+
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum deserunt expedita
+                            inventore ab harum dolores deleniti, beatae laborum consectetur nostrum dignissimos quo odit
+                            explicabo incidunt veritatis architecto animi. Quam?
+                        </p>
+                    </div>
+                    <div class="socials">
+                        <a href="#" class="social-icon i-prime-twitter" title="X" target="_blank" rel="nofollow">
+                            <span>x</span>
+                        </a>
+                        <a href="#" class="social-icon i-prime-facebook" title="facebook" target="_blank"
+                            rel="nofollow">
+                            <span>facebook</span>
+                        </a>
+                        <a href="#" class="social-icon i-prime-instagram" title="Instagram" target="_blank"
+                            rel="nofollow">
+                            <span>Instagram</span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="zi-2 avatar">
+                    <img class='' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
+                </div>
+
+                <div class="zi-2 info-area">
+                    <div class="infos">
+                        <div class="info">
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="info">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="info">
+                            <h3>Sample Text</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#" class="zi-2 more"><span>More</span></a>
+            </div>
+
+
+            <div class="agent">
+
+                <div class="name zi-2">
+                    <h1>Matthew Martinez</h1>
+                    <h2>Top Luxury Real Estate Agent</h2>
+
+                    <div class="description">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum deserunt expedita
+                            inventore ab harum dolores deleniti, beatae laborum consectetur nostrum dignissimos quo odit
+                            explicabo incidunt veritatis architecto animi. Quam?
+                        </p>
+                    </div>
+                    <div class="socials">
+                        <a href="#" class="social-icon i-prime-twitter" title="X" target="_blank" rel="nofollow">
+                            <span>x</span>
+                        </a>
+                        <a href="#" class="social-icon i-prime-facebook" title="facebook" target="_blank"
+                            rel="nofollow">
+                            <span>facebook</span>
+                        </a>
+                        <a href="#" class="social-icon i-prime-instagram" title="Instagram" target="_blank"
+                            rel="nofollow">
+                            <span>Instagram</span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="zi-2 avatar">
+                    <img class='' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
+                </div>
+
+                <div class="zi-2 info-area">
+                    <div class="infos">
+                        <div class="info">
+                            <h3>Lorem</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="info">
+                            <h3>Lorem Ipsum</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                        <div class="info">
+                            <h3>Sample Text</h3>
+                            <p>Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="#" class="zi-2 more"><span>More</span></a>
+            </div>
 
 
         </div>

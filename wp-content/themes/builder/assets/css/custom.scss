@@ -152,6 +152,7 @@ body:not(.home) #header {
 			img {
 				display: block;
 				margin: auto;
+				max-width: 250px;
 			}
 		}
 		.info-area {
@@ -285,6 +286,12 @@ body:not(.home) #header {
 		}
 	}
 
+	@media (max-width: 767px) {
+		.agent .avatar img {
+			max-height: 40vh;
+		}
+	}
+
 	@media (min-width: 1024px) {
 		.agent {
 			display: flex;
@@ -298,6 +305,12 @@ body:not(.home) #header {
 		}
 		.name {
 			order: 3;
+		}
+	}
+
+	@media (min-width: 1660px) {
+		.avatar img {
+			max-width: 350px;
 		}
 	}
 }
