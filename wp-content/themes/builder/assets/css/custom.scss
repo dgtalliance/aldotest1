@@ -67,6 +67,8 @@ body:not(.home) #header {
 	background-color: #fff;
 	box-shadow: 0 0 8px #00000030;
 	z-index: 99;
+	transition: all 0.3s ease;
+	transform: translateX(-300px);
 
 	.hamburger {
 		position: absolute;
@@ -90,6 +92,18 @@ body:not(.home) #header {
 			a {
 				display: block;
 			}
+		}
+	}
+}
+body {
+	transform: translateX(0);
+	overflow-x: hidden;
+	transition: all 0.3s ease;
+	&.nav-active {
+		transform: translateX(300px);
+
+		.sidenav {
+			transform: translateX(0);
 		}
 	}
 }
