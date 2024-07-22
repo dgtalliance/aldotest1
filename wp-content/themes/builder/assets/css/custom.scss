@@ -5,6 +5,7 @@ body:not(.home) #header {
 #header {
 	z-index: 2;
 	padding: 12px 0;
+
 	.container {
 		position: relative;
 	}
@@ -98,11 +99,16 @@ body:not(.home) #header {
 	}
 }
 body {
-	transform: translateX(0);
-	overflow-x: hidden;
-	transition: all 0.3s ease;
+	main,
+	#header {
+		transition: all 0.3s ease;
+		transform: translateX(0);
+	}
 	&.nav-active {
-		transform: translateX(300px);
+		#header,
+		main {
+			transform: translateX(300px);
+		}
 
 		.hamburger {
 			opacity: 0;
