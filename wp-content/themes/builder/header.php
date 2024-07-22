@@ -258,50 +258,52 @@
                 <a lang="en" hreflang="en" href="javascript:void(0)"
                     data-language="<?php echo __('English', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="us"
                     class="active english flag-english item-languages notranslate" id="tr-en" rel="nofollow"
-                    title="Translate to English" aria-label="Translate to English"><span>EN</span></a>
-                <?php  } ?>
-                <?php  if( array_key_exists('Russian', $idx_languages_list) && $idx_languages_list['Russian'] =="1" ){ ?>
-                <a lang="ru" hreflang="ru" href="javascript:void(0)"
-                    data-language="<?php echo __('Russian', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="ru"
-                    class="flag-russian item-languages notranslate" id="tr-ru" rel="nofollow"
-                    title="Translate to Russian" aria-label="Translate to Russian"><span>RU</span></a>
-                <?php  } ?>
-                <?php  if( array_key_exists('Spanish', $idx_languages_list) && $idx_languages_list['Spanish'] =="1" ){ ?>
-                <a lang="es" hreflang="es" href="javascript:void(0)"
-                    data-language="<?php echo __('Spanish', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="es"
-                    class="flag-spanish item-languages notranslate" id="tr-es" rel="nofollow"
-                    title="Translate to Spanish" aria-label="Translate to Spanish"><span>ES</span></a>
-                <?php  } ?>
-                <?php  if( array_key_exists('Portuguese', $idx_languages_list) && $idx_languages_list['Portuguese'] =="1" ){ ?>
-                <a lang="br" hreflang="br" href="javascript:void(0)"
-                    data-language="<?php echo __('Portuguese', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="pt"
-                    class="flag-portuguese item-languages notranslate" id="tr-pt" rel="nofollow"
-                    title="Translate to Portuguese" aria-label="Translate to Portuguese"><span>BR</span></a>
-                <?php  } ?>
-                <?php  if( array_key_exists('French', $idx_languages_list) && $idx_languages_list['French'] =="1" ){ ?>
-                <a lang="fr" hreflang="fr" href="javascript:void(0)"
-                    data-language="<?php echo __('French', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="fr"
-                    class="flag-french item-languages notranslate" id="tr-fr" rel="nofollow" title="Translate to French"
-                    aria-label="Translate to French"><span>FR</span></a>
-                <?php  } ?>
-                <?php  if( array_key_exists('Italian', $idx_languages_list) && $idx_languages_list['Italian'] =="1" ){ ?>
-                <a lang="it" hreflang="it" href="javascript:void(0)"
-                    data-language="<?php echo __('Italy', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="it"
-                    class="flag-italy item-languages notranslate" id="tr-it" rel="nofollow" title="Translate to Italy"
-                    aria-label="Translate to Italy"><span>IT</span></a>
-                <?php  } ?>
-                <?php  if( array_key_exists('German', $idx_languages_list) && $idx_languages_list['German'] =="1" ){ ?>
-                <a lang="de" hreflang="de" href="javascript:void(0)"
-                    data-language="<?php echo __('German', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="de"
-                    class="flag-german item-languages notranslate" id="tr-de" rel="nofollow" title="Translate to German"
-                    aria-label="Translate to German"><span>DE</span></a>
-                <?php  } ?>
-                <?php  if( array_key_exists('Chinese', $idx_languages_list) && $idx_languages_list['Chinese'] =="1" ){ ?>
-                <a lang="zh" hreflang="zh" href="javascript:void(0)"
-                    data-language="<?php echo __('Chinese', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="zh-TW"
-                    class="flag-chinese item-languages notranslate" id="zh-TW" rel="nofollow"
-                    title="Translate to Chinese" aria-label="Translate to Chinese"><span>ZH</span></a>
-                <?php  } ?>
+                    document.querySelectorAll(".hamburger").forEach(button=> {
+                    button.addEventListener("click", () => {
+                    document.querySelector("body").classList.toggle("nav-active");
+                    });
+                    });n'] =="1" ){ ?>
+                    <a lang="ru" hreflang="ru" href="javascript:void(0)"
+                        data-language="<?php echo __('Russian', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="ru"
+                        class="flag-russian item-languages notranslate" id="tr-ru" rel="nofollow"
+                        title="Translate to Russian" aria-label="Translate to Russian"><span>RU</span></a>
+                    <?php  } ?>
+                    <?php  if( array_key_exists('Spanish', $idx_languages_list) && $idx_languages_list['Spanish'] =="1" ){ ?>
+                    <a lang="es" hreflang="es" href="javascript:void(0)"
+                        data-language="<?php echo __('Spanish', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="es"
+                        class="flag-spanish item-languages notranslate" id="tr-es" rel="nofollow"
+                        title="Translate to Spanish" aria-label="Translate to Spanish"><span>ES</span></a>
+                    <?php  } ?>
+                    <?php  if( array_key_exists('Portuguese', $idx_languages_list) && $idx_languages_list['Portuguese'] =="1" ){ ?>
+                    <a lang="br" hreflang="br" href="javascript:void(0)"
+                        data-language="<?php echo __('Portuguese', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="pt"
+                        class="flag-portuguese item-languages notranslate" id="tr-pt" rel="nofollow"
+                        title="Translate to Portuguese" aria-label="Translate to Portuguese"><span>BR</span></a>
+                    <?php  } ?>
+                    <?php  if( array_key_exists('French', $idx_languages_list) && $idx_languages_list['French'] =="1" ){ ?>
+                    <a lang="fr" hreflang="fr" href="javascript:void(0)"
+                        data-language="<?php echo __('French', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="fr"
+                        class="flag-french item-languages notranslate" id="tr-fr" rel="nofollow"
+                        title="Translate to French" aria-label="Translate to French"><span>FR</span></a>
+                    <?php  } ?>
+                    <?php  if( array_key_exists('Italian', $idx_languages_list) && $idx_languages_list['Italian'] =="1" ){ ?>
+                    <a lang="it" hreflang="it" href="javascript:void(0)"
+                        data-language="<?php echo __('Italy', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="it"
+                        class="flag-italy item-languages notranslate" id="tr-it" rel="nofollow"
+                        title="Translate to Italy" aria-label="Translate to Italy"><span>IT</span></a>
+                    <?php  } ?>
+                    <?php  if( array_key_exists('German', $idx_languages_list) && $idx_languages_list['German'] =="1" ){ ?>
+                    <a lang="de" hreflang="de" href="javascript:void(0)"
+                        data-language="<?php echo __('German', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="de"
+                        class="flag-german item-languages notranslate" id="tr-de" rel="nofollow"
+                        title="Translate to German" aria-label="Translate to German"><span>DE</span></a>
+                    <?php  } ?>
+                    <?php  if( array_key_exists('Chinese', $idx_languages_list) && $idx_languages_list['Chinese'] =="1" ){ ?>
+                    <a lang="zh" hreflang="zh" href="javascript:void(0)"
+                        data-language="<?php echo __('Chinese', IDXBOOST_DOMAIN_THEME_LANG); ?>" data-iso="zh-TW"
+                        class="flag-chinese item-languages notranslate" id="zh-TW" rel="nofollow"
+                        title="Translate to Chinese" aria-label="Translate to Chinese"><span>ZH</span></a>
+                    <?php  } ?>
             </div>
         </div>
     </div>
@@ -444,13 +446,9 @@
 
 
     <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const hamburger = document.querySelector(".hamburger");
-        const body = document.querySelector("body");
-
-        hamburger.addEventListener("click", () => {
-            body.classList.toggle("nav-active");
+    document.querySelectorAll(".hamburger").forEach(button => {
+        button.addEventListener("click", () => {
+            document.querySelector("body").classList.toggle("nav-active");
         });
-
     });
     </script>
