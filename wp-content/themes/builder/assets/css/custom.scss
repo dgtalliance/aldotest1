@@ -79,6 +79,11 @@ body:not(.home) #header {
 		opacity: 0;
 	}
 
+	.widgets {
+		padding: 60px 30px;
+		overflow: auto;
+	}
+
 	.widget {
 		margin-bottom: 30px;
 		h3 {
@@ -117,6 +122,7 @@ body {
 		}
 
 		.sidenav {
+			transform: translateX(0px);
 			.hamburger {
 				opacity: 1;
 				visibility: visible;
