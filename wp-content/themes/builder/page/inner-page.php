@@ -16,7 +16,7 @@ get_header();
     <section class="hero">
         <div class="container">
             <ul class="breadcrumb">
-                <li><a href="#">Home</a></li>
+                <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
                 <li><span>Real Estate Agents</span></li>
             </ul>
 
