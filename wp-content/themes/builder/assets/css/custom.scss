@@ -68,6 +68,12 @@ body:not(.home) #header {
 	box-shadow: 0 0 8px #00000030;
 	z-index: 99;
 
+	.hamburger {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
 	.widget {
 		margin-bottom: 30px;
 		h3 {

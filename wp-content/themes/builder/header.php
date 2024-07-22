@@ -60,6 +60,9 @@
 
 
     <aside class='sidenav'>
+        <button class="hamburger">
+            <span>Close Menu</span>
+        </button>
         <div class="widget">
             <h3>Lorem upsum solor</h3>
             <ul>
