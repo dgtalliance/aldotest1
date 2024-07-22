@@ -5,7 +5,7 @@
  */
 get_header(); 
 
-while ( have_posts() ) : the_post(); ?>
+?>
 
 
 
@@ -181,4 +181,4 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 
-<?php endwhile; get_footer(); ?>
+<?php get_footer(); ?>
