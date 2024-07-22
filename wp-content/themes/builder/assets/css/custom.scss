@@ -449,7 +449,7 @@ body:not(.home) #header {
 		}
 	}
 
-	.more {
+	.more-info {
 		padding: 12px 0;
 		border: 0;
 		cursor: pointer;
@@ -475,7 +475,7 @@ body:not(.home) #header {
 			}
 		}
 	}
-	.more.active + .details {
+	.more-info.active + .details {
 		height: auto;
 	}
 
