@@ -148,7 +148,7 @@ get_header();
                             </div>
                             <div class="volume">
                                 <small>Volume</small>
-                                <small class='total'>$<?php echo $agent['volume']; ?></small>
+                                <small class='total'><strong>$<?php echo $agent['volume']; ?></strong></small>
                             </div>
                         </div>
 
