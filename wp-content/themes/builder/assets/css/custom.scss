@@ -589,7 +589,7 @@ body {
 
 .agent-results {
 	background: #f8f8f8;
-	padding: 78px 0 150px;
+	padding: 30px 0 150px;
 
 	.container {
 		padding: 0 15px;
@@ -610,14 +610,23 @@ body {
 		padding: 20px;
 		background: linear-gradient(to bottom, #fff 82%, #ccc 129%);
 		border: solid 1px #fff;
+		position: relative;
 	}
 
 	.position {
-		display: inline-block;
+		display: grid;
 		padding: 5px;
-		background-color: #000;
-		color: #fff;
+		background-color: #fff;
 		border-radius: 50px;
+		position: absolute;
+		line-height: 1;
+		font-weight: bold;
+		min-width: 26px;
+		text-align: center;
+		left: 11px;
+		top: 18px;
+		z-index: 1;
+		box-shadow: 0 0 4px #0000002b;
 	}
 
 	.avatar {
@@ -649,12 +658,9 @@ body {
 			margin-right: 12px;
 		}
 		small {
-			text-transform: uppercase;
-			letter-spacing: 0.1rem;
-			font-weight: bold;
-			font-size: 10px;
-			color: #475896;
+			font-size: 0.9rem;
 			display: inline-flex;
+			opacity: 0.8;
 		}
 	}
 
@@ -685,6 +691,12 @@ body {
 			display: inline-block;
 			font-style: normal;
 			font-size: 0.9rem;
+		}
+		a {
+			&:hover {
+				text-decoration: underline;
+				text-underline-offset: 4px;
+			}
 		}
 	}
 

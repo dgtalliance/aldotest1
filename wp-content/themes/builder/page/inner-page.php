@@ -119,16 +119,7 @@ get_header();
                             <small>5 average.</small>
                         </div>
 
-                        <div class="cants">
-                            <div class="sales">
-                                <small>Sales</small>
-                                <small class='total'><?php echo $agent['sales']; ?></small>
-                            </div>
-                            <div class="volume">
-                                <small>Volume</small>
-                                <small class='total'>$<?php echo $agent['volume']; ?></small>
-                            </div>
-                        </div>
+
 
                         <div class="location">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
@@ -148,6 +139,17 @@ get_header();
                                 perspiciatis
                                 et ducimus unde reprehenderit inventore esse!
                             </p>
+                        </div>
+
+                        <div class="cants">
+                            <div class="sales">
+                                <small>Sales</small>
+                                <small class='total'><?php echo $agent['sales']; ?></small>
+                            </div>
+                            <div class="volume">
+                                <small>Volume</small>
+                                <small class='total'>$<?php echo $agent['volume']; ?></small>
+                            </div>
                         </div>
 
                     </div>
