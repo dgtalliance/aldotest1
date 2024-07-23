@@ -476,7 +476,7 @@ body {
 }
 
 .hero {
-	background-color: #0069dc;
+	background-color: #000;
 	color: #fff;
 	padding-top: 20px;
 	padding-bottom: 30px;
@@ -612,6 +612,14 @@ body {
 		border: solid 1px #fff;
 	}
 
+	.position {
+		display: inline-block;
+		padding: 5px;
+		background-color: #000;
+		color: #fff;
+		border-radius: 50px;
+	}
+
 	.avatar {
 		padding: 4px;
 		box-shadow: 1px 1px 6px rgb(0 0 0 / 9%);
@@ -633,13 +641,12 @@ body {
 		width: 100%;
 	}
 	.name {
-		display: flex;
-		align-items: center;
-		gap: 18px;
 		h3 {
 			margin: 0;
-			color: #006adc;
+			color: #000;
 			font-weight: bold;
+			display: inline-flex;
+			margin-right: 12px;
 		}
 		small {
 			text-transform: uppercase;
@@ -647,6 +654,7 @@ body {
 			font-weight: bold;
 			font-size: 10px;
 			color: #475896;
+			display: inline-flex;
 		}
 	}
 
