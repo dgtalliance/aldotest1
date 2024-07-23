@@ -739,4 +739,31 @@ body {
 			padding-left: 87px;
 		}
 	}
+
+	@media (min-width: 1024px) {
+		.description {
+			margin-bottom: 0;
+		}
+		.details {
+			.cants {
+				position: absolute;
+				right: 23px;
+				top: 0;
+				> div {
+					justify-content: end;
+					gap: 12px;
+					align-items: baseline;
+				}
+				.total {
+					font-weight: bold;
+				}
+
+				.volume {
+					.total {
+						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
 }
