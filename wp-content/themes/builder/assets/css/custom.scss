@@ -726,6 +726,8 @@ body {
 	.cants {
 		border-top: 1px solid #eaeaea;
 		padding-top: 12px;
+		display: grid;
+		gap: 8px;
 		> div {
 			display: flex;
 			justify-content: space-between;

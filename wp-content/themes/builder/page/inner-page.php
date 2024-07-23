@@ -106,7 +106,7 @@ get_header();
                     </div>
                     <div class="details">
                         <div class="name">
-                            <h3><?php echo $agent['agent']; ?></h3>
+                            <h3><a href="#"><?php echo $agent['agent']; ?></a></h3>
                             <small>
                                 <?php echo $agent['company']; ?>
                             </small>
@@ -144,7 +144,7 @@ get_header();
                         <div class="cants">
                             <div class="sales">
                                 <small>Sales</small>
-                                <small class='total'><?php echo $agent['sales']; ?></small>
+                                <small class='total'><a href="#"><?php echo $agent['sales']; ?></a></small>
                             </div>
                             <div class="volume">
                                 <small>Volume</small>
