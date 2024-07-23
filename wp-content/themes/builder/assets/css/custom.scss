@@ -748,19 +748,25 @@ body {
 			.cants {
 				position: absolute;
 				right: 23px;
-				top: 0;
+				top: 12px;
+				gap: 0;
+				padding: 0;
+				border: 0;
 				> div {
 					justify-content: end;
-					gap: 12px;
+					gap: 6px;
 					align-items: baseline;
 				}
 				.total {
 					font-weight: bold;
 				}
+				small:not(.total) {
+					opacity: 0.5;
+				}
 
 				.volume {
 					.total {
-						font-size: 2rem;
+						font-size: 1.5rem;
 					}
 				}
 			}
