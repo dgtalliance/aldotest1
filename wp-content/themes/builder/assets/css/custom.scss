@@ -420,6 +420,13 @@ body {
 					font-size: 0.8rem;
 				}
 			}
+			.infos {
+				display: flex;
+			}
+		}
+		.slide-bullets {
+			justify-content: center;
+			width: 100%;
 		}
 	}
 
