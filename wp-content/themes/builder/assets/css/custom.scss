@@ -279,6 +279,12 @@ body {
 				color: #898989;
 			}
 		}
+		.mobile {
+			strong {
+				display: block;
+				font-size: 1.2rem;
+			}
+		}
 
 		.socials {
 			display: flex;
@@ -424,6 +430,9 @@ body {
 				}
 			}
 		}
+		.desktop {
+			display: none;
+		}
 		.slide-bullets {
 			justify-content: center;
 			width: 100%;
@@ -434,6 +443,9 @@ body {
 		.agent {
 			display: flex;
 			align-items: center;
+		}
+		.mobile {
+			display: none;
 		}
 		.info-area {
 			order: 1;
