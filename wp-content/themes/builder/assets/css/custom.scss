@@ -1,6 +1,5 @@
-// HEADER
-body:not(.home) #header {
-	background-color: #fff;
+body {
+	padding: 0 !important;
 }
 #header {
 	z-index: 2;
@@ -8,6 +7,11 @@ body:not(.home) #header {
 
 	.container {
 		position: relative;
+	}
+	@media (min-width: 1024px) {
+		.hamburger {
+			top: 30px;
+		}
 	}
 }
 .hamburger {
@@ -43,13 +47,6 @@ body:not(.home) #header {
 		}
 		&:after {
 			width: 100%;
-		}
-	}
-}
-.home {
-	@media (min-width: 1024px) {
-		.hamburger {
-			top: 30px;
 		}
 	}
 }
