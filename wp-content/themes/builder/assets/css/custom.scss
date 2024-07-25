@@ -3,7 +3,6 @@ body {
 }
 #header {
 	z-index: 2;
-	padding: 12px 0;
 
 	.container {
 		position: relative;
@@ -159,6 +158,12 @@ body {
 				}
 			}
 		}
+	}
+}
+.headerColor {
+	#header {
+		background-color: transparent !important;
+		box-shadow: none !important;
 	}
 }
 

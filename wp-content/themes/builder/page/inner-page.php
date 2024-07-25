@@ -11,6 +11,18 @@ get_header();
 
 
 <main>
+
+
+    <section class="hero2">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
+                <li><span>Real Estate Agents</span></li>
+            </ul>
+            <h1 class='title'>Top Real Estate Agents List in the U.S. (2024)</h1>
+        </div>
+    </section>
+
     <section id="hero" class="ms-section ms-animate">
 
         <div class="slide agents">
@@ -334,12 +346,9 @@ get_header();
 
     <section class="hero2">
         <div class="container">
-            <ul class="breadcrumb">
-                <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
-                <li><span>Real Estate Agents</span></li>
-            </ul>
 
-            <h1 class='title'>Top Real Estate Agents List in the U.S. (2024)</h1>
+
+            <h2 class='title'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
 
             <div class="details">
                 <p>We rank the top 500 real estate agents in the United States based on the agents’ transaction history
