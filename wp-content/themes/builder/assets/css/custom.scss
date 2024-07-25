@@ -239,11 +239,11 @@ body {
 			flex: 1;
 			position: relative;
 
-			h1 {
+			.agent-name {
 				font-size: 2.2rem;
 				font-weight: bold;
 			}
-			h2 {
+			.agent-title {
 				color: #898989;
 				font-size: 1.1rem;
 				margin-bottom: 12px;
