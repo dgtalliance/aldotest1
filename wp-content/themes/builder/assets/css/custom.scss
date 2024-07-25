@@ -114,6 +114,12 @@ body:not(.home) #header {
 			}
 		}
 	}
+
+	@media (min-width: 1024px) {
+		.hamburger {
+			top: 30px;
+		}
+	}
 }
 body {
 	main,
