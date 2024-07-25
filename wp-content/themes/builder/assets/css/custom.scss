@@ -1,16 +1,13 @@
-body {
-	padding: 0 !important;
-}
 #header {
 	z-index: 2;
 
+	height: 9px;
+
 	.container {
 		position: relative;
-	}
-	@media (min-width: 1024px) {
-		.hamburger {
-			top: 30px;
-		}
+		display: grid;
+		height: 100%;
+		align-items: center;
 	}
 }
 .hamburger {
@@ -158,12 +155,6 @@ body {
 				}
 			}
 		}
-	}
-}
-.headerColor {
-	#header {
-		background-color: transparent !important;
-		box-shadow: none !important;
 	}
 }
 
@@ -503,10 +494,16 @@ body {
 }
 
 .hero2 {
-	background-color: #000;
-	color: #fff;
 	padding-top: 20px;
 	padding-bottom: 30px;
+
+	.black-bg {
+		background-color: #000;
+		color: #fff;
+		.breadcrumb li:not(:last-child):after {
+			border: solid #fff;
+		}
+	}
 
 	a {
 		color: inherit;
@@ -523,7 +520,7 @@ body {
 		}
 		li:not(:last-child):after {
 			content: "";
-			border: solid #fff;
+			border: solid #000;
 			border-width: 0 2px 2px 0;
 			display: inline-block;
 			padding: 2px;

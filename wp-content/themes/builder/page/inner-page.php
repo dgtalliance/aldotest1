@@ -331,7 +331,7 @@ get_header();
     </section>
 
 
-    <section class="hero2">
+    <section class="hero2 black-bg">
         <div class="container">
 
 
