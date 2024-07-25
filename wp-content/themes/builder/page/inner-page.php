@@ -27,12 +27,10 @@ get_header();
 
         <div class="slide agents">
 
-
             <div class="agent">
-
                 <div class="name zi-2">
-                    <h1>Matthew Martinez</h1>
-                    <h2>Top Luxury Real Estate Agent</h2>
+                    <strong class='agent-name'>Matthew Martinez</strong>
+                    <p class='agent-title'>Top Luxury Real Estate Agent</p>
 
                     <div class="description">
                         <p>
@@ -126,15 +124,13 @@ get_header();
                     </div>
 
                 </div>
-
                 <a href="#" class="zi-2 more"><span>More</span></a>
             </div>
 
             <div class="agent">
-
                 <div class="name zi-2">
-                    <h1>Matthew Martinez</h1>
-                    <h2>Top Luxury Real Estate Agent</h2>
+                    <strong class='agent-name'>Matthew Martinez</strong>
+                    <p class='agent-title'>Top Luxury Real Estate Agent</p>
 
                     <div class="description">
                         <p>
@@ -228,15 +224,13 @@ get_header();
                     </div>
 
                 </div>
-
                 <a href="#" class="zi-2 more"><span>More</span></a>
             </div>
 
             <div class="agent">
-
                 <div class="name zi-2">
-                    <h1>Matthew Martinez</h1>
-                    <h2>Top Luxury Real Estate Agent</h2>
+                    <strong class='agent-name'>Matthew Martinez</strong>
+                    <p class='agent-title'>Top Luxury Real Estate Agent</p>
 
                     <div class="description">
                         <p>
@@ -330,15 +324,8 @@ get_header();
                     </div>
 
                 </div>
-
                 <a href="#" class="zi-2 more"><span>More</span></a>
             </div>
-
-
-
-
-
-
         </div>
 
     </section>
