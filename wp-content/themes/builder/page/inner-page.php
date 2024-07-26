@@ -13,7 +13,7 @@ get_header();
 <main>
 
 
-    <section class=" invisible">
+    <section class="invisible">
         <div class="container">
             <ul class="breadcrumb">
                 <li><a href="<?php bloginfo('url'); ?>">Home</a></li>
@@ -331,7 +331,7 @@ get_header();
     </section>
 
 
-    <section class="hero2">
+    <section class="info-bar">
         <div class="container">
 
 
