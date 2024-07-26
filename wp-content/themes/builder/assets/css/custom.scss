@@ -158,8 +158,6 @@ body {
 	}
 }
 
-// HOME PAGE
-
 #hero {
 	// animations
 	.gs-item-slider {
@@ -617,6 +615,10 @@ body {
 			font-size: 18px;
 		}
 	}
+}
+.invisible {
+	position: absolute !important;
+	visibility: hidden !important;
 }
 
 .agent-results {
