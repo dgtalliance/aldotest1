@@ -480,6 +480,126 @@ get_header();
 
 
 
+
+
+<div class="agent-content">
+    <div class="agents">
+        <div class="agent">
+            <figure>
+                <img src="https://portal-next.s3.amazonaws.com/3_e4a7dff683.jpg" alt="" class="thumb" />
+                <figcaption>
+                    An elephant at sunset deserunt laboriosam soluta autem
+                    repudiandae.
+                </figcaption>
+            </figure>
+
+            <div class="content">
+                <h3 class="name">Dawid</h3>
+                <div class="stars">
+                    <p>⭐⭐⭐⭐⭐ 5 average.</p>
+                </div>
+                <address>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 12q.825 0 1.413-.587T14 10t-.587-1.412T12 8t-1.412.588T10 10t.588 1.413T12 12m0 7.35q3.05-2.8 4.525-5.087T18 10.2q0-2.725-1.737-4.462T12 4T7.738 5.738T6 10.2q0 1.775 1.475 4.063T12 19.35M12 22q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 2.5-1.987 5.438T12 22m0-12">
+                        </path>
+                    </svg>
+                    Miami, FL
+                </address>
+                <div class="cants">
+                    <div class="cant">Active Realty, Inc</div>
+                    <div class="cant"><strong>Volume:</strong> <span>150M</span></div>
+                    <div class="cant"><strong>Sales:</strong> <span>500</span></div>
+                </div>
+
+                <div class="description">
+                    <strong>Description</strong>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        modi molestias eveniet quos praesentium maiores ex placeat,
+                        minima, nesciunt pariatur deserunt laboriosam soluta autem
+                        repudiandae. Animi necessitatibus maiores facere corporis.
+                    </p>
+
+                    <strong>Description</strong>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        modi molestias eveniet quos praesentium maiores ex placeat,
+                        minima, nesciunt pariatur deserunt laboriosam soluta autem
+                        repudiandae. Animi necessitatibus maiores facere corporis.
+                    </p>
+                </div>
+                <strong>Features</strong>
+                <ul class="infos">
+                    <li>Lorem ipsum dolor</li>
+                    <li>Amet consectetur</li>
+                    <li>Tempore modi molestias</li>
+                    <li>Tacere corporis</li>
+                    <li>Laboriosam soluta</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="agent">
+            <figure>
+                <img src="https://portal-next.s3.amazonaws.com/3_e4a7dff683.jpg" alt="" class="thumb" />
+                <figcaption>
+                    An elephant at sunset deserunt laboriosam soluta autem
+                    repudiandae.
+                </figcaption>
+            </figure>
+
+            <div class="content">
+                <h3 class="name">Dawid</h3>
+                <div class="stars">
+                    <p>⭐⭐⭐⭐⭐ 5 average.</p>
+                </div>
+                <address>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 12q.825 0 1.413-.587T14 10t-.587-1.412T12 8t-1.412.588T10 10t.588 1.413T12 12m0 7.35q3.05-2.8 4.525-5.087T18 10.2q0-2.725-1.737-4.462T12 4T7.738 5.738T6 10.2q0 1.775 1.475 4.063T12 19.35M12 22q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2t5.588 2.225T20 10.2q0 2.5-1.987 5.438T12 22m0-12">
+                        </path>
+                    </svg>
+                    Miami, FL
+                </address>
+                <div class="cants">
+                    <div class="cant">Active Realty, Inc</div>
+                    <div class="cant"><strong>Volume:</strong> <span>150M</span></div>
+                    <div class="cant"><strong>Sales:</strong> <span>500</span></div>
+                </div>
+
+                <div class="description">
+                    <strong>Description</strong>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        modi molestias eveniet quos praesentium maiores ex placeat,
+                        minima, nesciunt pariatur deserunt laboriosam soluta autem
+                        repudiandae. Animi necessitatibus maiores facere corporis.
+                    </p>
+
+                    <strong>Description</strong>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                        modi molestias eveniet quos praesentium maiores ex placeat,
+                        minima, nesciunt pariatur deserunt laboriosam soluta autem
+                        repudiandae. Animi necessitatibus maiores facere corporis.
+                    </p>
+                </div>
+                <strong>Features</strong>
+                <ul class="infos">
+                    <li>Lorem ipsum dolor</li>
+                    <li>Amet consectetur</li>
+                    <li>Tempore modi molestias</li>
+                    <li>Tacere corporis</li>
+                    <li>Laboriosam soluta</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <script>
 document.addEventListener("DOMContentLoaded", () => {
 
