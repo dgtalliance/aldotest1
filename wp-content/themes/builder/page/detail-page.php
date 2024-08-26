@@ -177,7 +177,7 @@ get_header();
 
 
 
-<main class="detail-content">
+<section class="detail-content">
 
 
     <div class="picture">
@@ -259,7 +259,7 @@ get_header();
         <a href="#">YT</a>
     </div>
 
-</main>
+</section>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
