@@ -8,14 +8,6 @@ get_header();
 ?>
 
 <style>
-.detail-content-wrap {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center
-}
-
-
 .detail-content {
     min-height: 100dvh;
     overflow: auto;
@@ -23,7 +15,8 @@ get_header();
     margin-inline: auto;
     position: relative;
     z-index: 2;
-    display: flex
+    display: flex;
+    background-color: #fff;
 }
 
 
@@ -44,6 +37,7 @@ get_header();
 .detail-content .picture .agent-image {
     display: block;
     max-width: 100%;
+    margin: auto;
     height: auto;
     object-position: top;
     transition: all .3s ease-in-out;
@@ -168,21 +162,7 @@ get_header();
 }
 
 
-@media(min-width: 1280px) {
-
-
-    .sidebar-bg {
-        width: 400px
-    }
-
-    .detail-content .picture {
-        width: 310px
-    }
-
-    .detail-content .picture.small {
-        width: 236px
-    }
-}
+@media(min-width: 1280px) {}
 
 @media(min-width: 1330px) {
     .detail-content {
@@ -207,89 +187,88 @@ get_header();
 
 
 
-<main class="detail-content-wrap">
+<main class="detail-content">
 
-    <div class="detail-content">
 
-        <div class="picture">
-            <img class="agent-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/agent.png" alt="" />
+    <div class="picture">
+        <img class="agent-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/agent.png" alt="" />
 
-            <div class="full-name">
-                <h1 class="f-name"><span>Adrian</span> Somoza</h1>
-                <small class="f-title">Real Estate Agent</small>
+        <div class="full-name">
+            <h1 class="f-name"><span>Adrian</span> Somoza</h1>
+            <small class="f-title">Real Estate Agent</small>
 
-                <button class="more-details"><span>+ MORE</span></button>
-            </div>
+            <button class="more-details"><span>+ MORE</span></button>
         </div>
-        <div class="article">
-            <h2>Bio</h2>
-            <p>
-                Adrian Somoza is a multidisciplinary designer based in Buenos Aires,
-                Argentina. He has been working as a freelance designer since 2013.
-                His work focuses on branding, graphic design, and illustration.
-            </p>
-            <p>
-                Adrian has worked with clients from all around the world, including
-                the United States, Australia, Spain, and the United Kingdom. He has
-                also worked with big brands such as Adobe, Sony, and Disney.
-            </p>
-            <p>
-                Adrian is passionate about design and loves creating beautiful and
-                functional designs that help his clients achieve their goals. He is
-                always looking for new challenges and opportunities to grow as a
-                designer.
-            </p>
+    </div>
+    <div class="article">
+        <h2>Bio</h2>
+        <p>
+            Adrian Somoza is a multidisciplinary designer based in Buenos Aires,
+            Argentina. He has been working as a freelance designer since 2013.
+            His work focuses on branding, graphic design, and illustration.
+        </p>
+        <p>
+            Adrian has worked with clients from all around the world, including
+            the United States, Australia, Spain, and the United Kingdom. He has
+            also worked with big brands such as Adobe, Sony, and Disney.
+        </p>
+        <p>
+            Adrian is passionate about design and loves creating beautiful and
+            functional designs that help his clients achieve their goals. He is
+            always looking for new challenges and opportunities to grow as a
+            designer.
+        </p>
 
-            <div class="awards">
-                <h2>Awards</h2>
-                <div class="items list">
-                    <div class="item">
-                        <h3>Lorem ipsum sodlor</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            malesuada, nunc non tincidunt.
-                        </p>
-                    </div>
-                    <div class="item">
-                        <h3>Lorem ipsum sodlor</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            malesuada, nunc non tincidunt.
-                        </p>
-                    </div>
-                    <div class="item">
-                        <h3>Lorem ipsum sodlor</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            malesuada, nunc non tincidunt.
-                        </p>
-                    </div>
-                    <div class="item">
-                        <h3>Lorem ipsum sodlor</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            malesuada, nunc non tincidunt.
-                        </p>
-                    </div>
-                    <div class="item">
-                        <h3>Lorem ipsum sodlor</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            malesuada, nunc non tincidunt.
-                        </p>
-                    </div>
+        <div class="awards">
+            <h2>Awards</h2>
+            <div class="items list">
+                <div class="item">
+                    <h3>Lorem ipsum sodlor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        malesuada, nunc non tincidunt.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Lorem ipsum sodlor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        malesuada, nunc non tincidunt.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Lorem ipsum sodlor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        malesuada, nunc non tincidunt.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Lorem ipsum sodlor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        malesuada, nunc non tincidunt.
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>Lorem ipsum sodlor</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                        malesuada, nunc non tincidunt.
+                    </p>
                 </div>
             </div>
         </div>
-
-        <div class="socials">
-            <a href="#">X</a>
-            <a href="#">LI</a>
-            <a href="#">FB</a>
-            <a href="#">IG</a>
-            <a href="#">YT</a>
-        </div>
     </div>
+
+    <div class="socials">
+        <a href="#">X</a>
+        <a href="#">LI</a>
+        <a href="#">FB</a>
+        <a href="#">IG</a>
+        <a href="#">YT</a>
+    </div>
+
 </main>
 
 <script>
