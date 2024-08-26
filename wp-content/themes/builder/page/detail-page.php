@@ -8,6 +8,11 @@ get_header();
 ?>
 
 <style>
+#header {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
 .detail-content {
     min-height: 100dvh;
     overflow: auto;
@@ -164,6 +169,7 @@ get_header();
         position: fixed;
         height: 100dvh;
         align-content: end;
+        border-right: solid 1px #eaeaea;
     }
 }
 
