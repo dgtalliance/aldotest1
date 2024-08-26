@@ -226,7 +226,7 @@ get_header();
             alt="DS" />
 
         <div class="full-name">
-            <h1 class="f-name"><span>Adrian</span> Somoza</h1>
+            <h1 class="f-name"><span>DAVID</span> SIDDONS</h1>
             <small class="f-title">Real Estate Agent</small>
 
             <button class="more-details"><span>+ MORE</span></button>

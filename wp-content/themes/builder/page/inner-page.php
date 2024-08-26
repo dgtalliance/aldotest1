@@ -156,7 +156,8 @@ get_header();
                 </div>
 
                 <div class="zi-2 avatar">
-                    <img class='' src="<?php echo get_template_directory_uri(); ?>/assets/images/home/Matt.png" alt="">
+                    <img class='' src="<?php echo get_template_directory_uri(); ?>/assets/images/david-101-min.png"
+                        alt="">
                 </div>
 
                 <div class="zi-2 info-area">
