@@ -30,7 +30,7 @@ get_header();
 
 
 .detail-content .picture {
-    width: 30%;
+
 
     transition: all .3s ease-in-out;
     display: grid;
@@ -47,9 +47,6 @@ get_header();
 }
 
 .detail-content .picture .full-name {
-    position: absolute;
-    top: 42px;
-    right: -43%;
     transition: all .3s ease-in-out
 }
 
@@ -163,11 +160,23 @@ get_header();
 
 
 @media (min-width: 1024px) {
+
     .detail-content .picture {
+        width: 32%;
         position: fixed;
         height: 100dvh;
         align-content: end;
         border-right: solid 1px #eaeaea;
+    }
+
+    .detail-content .picture .full-name {
+        position: absolute;
+        top: 82px;
+        right: -37%;
+    }
+
+    .detail-content .picture.small {
+        width: 25%;
     }
 }
 
