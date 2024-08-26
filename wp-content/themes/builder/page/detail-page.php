@@ -181,14 +181,11 @@ get_header();
     }
 
     .detail-content .article.active {
-
         opacity: 1;
-
-
     }
 
     .detail-content .article.active .biography {
-        padding-top: 0;
+        padding-top: 23vh;
     }
 
     .detail-content .socials {
