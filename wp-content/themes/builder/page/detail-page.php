@@ -170,22 +170,25 @@ get_header();
 
     .detail-content .article {
         margin-left: auto;
-        transform: translateY(100%);
         height: 100vh;
         overflow: auto;
 
     }
 
+    .biography {
+        padding-top: 60vh;
+        transition: all 0.3s ease-in-out;
+    }
+
     .detail-content .article.active {
 
         opacity: 1;
-        transform: translateY(0);
+
 
     }
 
-    .biography {
-        padding-top: 14vh;
-        transition: all 0.3s ease-in-out;
+    .detail-content .article.active .biography {
+        padding-top: 0;
     }
 
     .detail-content .socials {
