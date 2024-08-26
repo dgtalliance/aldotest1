@@ -99,17 +99,13 @@ get_header();
     width: 70%;
     padding-left: 5%;
     padding-right: 10%;
-    padding-top: 28vh;
     transition: all .4s ease-in-out;
     top: 100%;
     position: relative;
     opacity: 0
 }
 
-.detail-content .article.active {
-    top: 0;
-    opacity: 1
-}
+
 
 .detail-content .article h2 {
     font-weight: bold;
@@ -178,6 +174,19 @@ get_header();
     .detail-content .picture.small {
         width: 25%;
     }
+
+    .detail-content .article {
+        margin-left: auto;
+        transform: translateY(100%);
+    }
+
+    .detail-content .article.active {
+        top: 0;
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+
 }
 
 
