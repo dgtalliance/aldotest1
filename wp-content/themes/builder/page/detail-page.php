@@ -9,7 +9,7 @@ get_header();
 
 <style>
 .detail-content-wrap {
-    min-height: 100dvh;
+
     display: flex;
     flex-direction: column;
     justify-content: center
@@ -26,11 +26,9 @@ get_header();
 .detail-content {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    height: 80dvh;
-    max-height: 70dvh;
+    min-height: 100dvh;
     overflow: auto;
     width: 100%;
-    max-width: 90%;
     margin-inline: auto;
     position: relative;
     z-index: 2;
@@ -254,7 +252,7 @@ get_header();
             <div class="name">Adrian— <span>Somoza</span></div>
         </div>
         <div class="picture">
-            <img class="agent-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/agent.jpg" alt="" />
+            <img class="agent-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/agent.png" alt="" />
 
             <div class="full-name">
                 <h1 class="f-name"><span>Adrian</span> Somoza</h1>
