@@ -30,8 +30,6 @@ get_header();
 
 
 .detail-content .picture {
-
-
     transition: all .3s ease-in-out;
     display: grid;
     align-items: flex-end;
@@ -44,6 +42,7 @@ get_header();
     max-width: 90%;
     margin: auto;
     height: auto;
+    transition: all 0.3s ease-in-out;
 }
 
 .detail-content .picture .full-name {
@@ -173,7 +172,7 @@ get_header();
     .detail-content .article {
         margin-left: auto;
         transform: translateY(100%);
-        padding-top: 21vh;
+
     }
 
     .detail-content .article.active {
@@ -181,6 +180,11 @@ get_header();
         opacity: 1;
         transform: translateY(0);
 
+    }
+
+    .biography {
+        padding-top: 14vh;
+        transition: all 0.3s ease-in-out;
     }
 
     .detail-content .socials {
@@ -225,23 +229,25 @@ get_header();
         </div>
     </div>
     <div class="article">
-        <h2>Bio</h2>
-        <p>
-            Adrian Somoza is a multidisciplinary designer based in Buenos Aires,
-            Argentina. He has been working as a freelance designer since 2013.
-            His work focuses on branding, graphic design, and illustration.
-        </p>
-        <p>
-            Adrian has worked with clients from all around the world, including
-            the United States, Australia, Spain, and the United Kingdom. He has
-            also worked with big brands such as Adobe, Sony, and Disney.
-        </p>
-        <p>
-            Adrian is passionate about design and loves creating beautiful and
-            functional designs that help his clients achieve their goals. He is
-            always looking for new challenges and opportunities to grow as a
-            designer.
-        </p>
+        <div class="biography">
+            <h2>Bio</h2>
+            <p>
+                Adrian Somoza is a multidisciplinary designer based in Buenos Aires,
+                Argentina. He has been working as a freelance designer since 2013.
+                His work focuses on branding, graphic design, and illustration.
+            </p>
+            <p>
+                Adrian has worked with clients from all around the world, including
+                the United States, Australia, Spain, and the United Kingdom. He has
+                also worked with big brands such as Adobe, Sony, and Disney.
+            </p>
+            <p>
+                Adrian is passionate about design and loves creating beautiful and
+                functional designs that help his clients achieve their goals. He is
+                always looking for new challenges and opportunities to grow as a
+                designer.
+            </p>
+        </div>
 
         <div class="awards">
             <h2>Awards</h2>
