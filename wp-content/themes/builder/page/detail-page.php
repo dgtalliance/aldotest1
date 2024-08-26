@@ -187,7 +187,8 @@ get_header();
 
 
     <div class="picture">
-        <img class="agent-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/agent.png" alt="" />
+        <img class="agent-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/david-101-min.png"
+            alt="DS" />
 
         <div class="full-name">
             <h1 class="f-name"><span>Adrian</span> Somoza</h1>
