@@ -25,8 +25,7 @@ get_header();
 
 .detail-content .picture {
     width: 30%;
-    position: sticky;
-    top: 0;
+
     transition: all .3s ease-in-out;
     display: grid;
     align-items: flex-end;
@@ -94,9 +93,7 @@ get_header();
     right: 10%
 }
 
-.detail-content .picture.small .agent-image {
-    max-height: 300px
-}
+
 
 .detail-content .article {
     width: 70%;
@@ -162,27 +159,20 @@ get_header();
 }
 
 
+@media (min-width: 1024px) {
+    .detail-content .picture {
+        position: fixed;
+        height: 100dvh;
+        align-content: end;
+    }
+}
+
+
 @media(min-width: 1280px) {}
 
-@media(min-width: 1330px) {
-    .detail-content {
-        max-width: 1220px
-    }
+@media(min-width: 1330px) {}
 
-    .detail-content .picture.small {
-        width: 245px
-    }
-}
-
-@media(min-width: 1660px) {
-    .detail-content {
-        max-width: 1620px
-    }
-
-    .sidebar-bg {
-        width: 600px
-    }
-}
+@media(min-width: 1660px) {}
 </style>
 
 
