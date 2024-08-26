@@ -8,7 +8,8 @@ get_header();
 ?>
 
 <style>
-#header {
+#header,
+.headerColor #header {
     box-shadow: none !important;
     background-color: transparent !important;
 }
@@ -40,12 +41,9 @@ get_header();
 
 .detail-content .picture .agent-image {
     display: block;
-    max-width: 100%;
+    max-width: 90%;
     margin: auto;
     height: auto;
-    object-position: top;
-    transition: all .3s ease-in-out;
-
 }
 
 .detail-content .picture .full-name {
