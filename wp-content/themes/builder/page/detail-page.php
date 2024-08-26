@@ -14,6 +14,10 @@ get_header();
     background-color: transparent !important;
 }
 
+#header .hamburger {
+    margin-left: auto;
+}
+
 .detail-content {
 
     width: 100%;
