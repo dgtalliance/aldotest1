@@ -193,7 +193,15 @@ get_header();
 }
 
 
-@media(min-width: 1280px) {}
+@media(min-width: 1280px) {
+    .detail-content .picture .agent-image {
+        max-height: 87vh;
+    }
+
+    .detail-content .picture.small .agent-image {
+        max-height: 60vh;
+    }
+}
 
 @media(min-width: 1330px) {}
 
