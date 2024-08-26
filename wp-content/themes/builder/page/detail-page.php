@@ -9,23 +9,14 @@ get_header();
 
 <style>
 .detail-content-wrap {
-
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center
 }
 
-.sidebar-bg {
-    background-color: #ddddda;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    width: 30%
-}
 
 .detail-content {
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
     min-height: 100dvh;
     overflow: auto;
     width: 100%;
@@ -35,27 +26,9 @@ get_header();
     display: flex
 }
 
-.detail-content .small-sidebar {
-    border-right: solid 1px #ddd;
-    position: sticky;
-    top: 0;
-    min-width: 100px
-}
 
-.detail-content .small-sidebar .name {
-    writing-mode: vertical-rl;
-    font-weight: bold;
-    line-height: 1;
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translatex(-50%) rotate(180deg);
-    font-size: 1.1rem
-}
 
-.detail-content .small-sidebar .name span {
-    display: block
-}
+
 
 .detail-content .picture {
     width: 30%;
@@ -64,19 +37,17 @@ get_header();
     transition: all .3s ease-in-out;
     display: grid;
     align-items: flex-end;
-    z-index: 3
+    z-index: 3;
+    background-color: #f8f8f8;
 }
 
 .detail-content .picture .agent-image {
     display: block;
-    width: 100%;
-    height: 100%;
-    -o-object-position: top;
+    max-width: 100%;
+    height: auto;
     object-position: top;
-    -o-object-fit: cover;
-    object-fit: cover;
     transition: all .3s ease-in-out;
-    max-height: 100%
+
 }
 
 .detail-content .picture .full-name {
@@ -196,16 +167,9 @@ get_header();
     font-size: .8rem
 }
 
-@media(min-width: 1660px) {
-    .detail-content {
-        max-width: 1600px
-    }
-}
 
 @media(min-width: 1280px) {
-    .detail-content {
-        max-width: 1150px
-    }
+
 
     .sidebar-bg {
         width: 400px
@@ -244,13 +208,9 @@ get_header();
 
 
 <main class="detail-content-wrap">
-    <span class="sidebar-bg"></span>
 
     <div class="detail-content">
-        <div class="small-sidebar">
-            <button class="menu">MENU</button>
-            <div class="name">Adrian— <span>Somoza</span></div>
-        </div>
+
         <div class="picture">
             <img class="agent-image" src="<?php echo get_template_directory_uri(); ?>/assets/images/agent.png" alt="" />
 
