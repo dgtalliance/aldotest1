@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="//stats.pusher.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet preload prefetch"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/ttf"
+      href="https://aldotest1.wpengine.com/wp-content/plugins/idxboost/fonts/icons/fonts/idx-icons.ttf?j9u9ce"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      as="style"
+      href="https://aldotest1.wpengine.com/wp-content/plugins/idxboost/fonts/icons/style.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://aldotest1.wpengine.com/wp-content/themes/builder/assets/css/custom.css"
+    />
+    <link
+      rel="stylesheet"
+      id="sweetalert-css-css"
+      href="https://aldotest1.wpengine.com/wp-content/plugins/idxboost/build/1717535738/css/vendor/sweetalert.min.css?ver=1718137756.1721231668"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="flex-idx-main-project-css"
+      href="https://aldotest1.wpengine.com/wp-content/plugins/idxboost/build/1717535738/css/main.min.css?ver=1718137756.1721231668"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="flex_initial_css_main-css"
+      href="https://aldotest1.wpengine.com/wp-content/themes/builder/assets/css/lg.css?ver=2.0.1.1721231668"
+      type="text/css"
+      media="all"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="detail-content-wrap">
+      <span class="sidebar-bg"></span>
+
+      <div class="detail-content">
+        <div class="small-sidebar">
+          <button class="menu">MENU</button>
+          <div class="name">Adrian— <span>Somoza</span></div>
+        </div>
+        <div class="picture">
+          <img class="agent-image" src="images/agent.jpg" alt="" />
+
+          <div class="full-name">
+            <h1 class="f-name"><span>Adrian</span> Somoza</h1>
+            <small class="f-title">Real Estate Agent</small>
+
+            <button class="more-details"><span>+ MORE</span></button>
+          </div>
+        </div>
+        <div class="article">
+          <h2>Bio</h2>
+          <p>
+            Adrian Somoza is a multidisciplinary designer based in Buenos Aires,
+            Argentina. He has been working as a freelance designer since 2013.
+            His work focuses on branding, graphic design, and illustration.
+          </p>
+          <p>
+            Adrian has worked with clients from all around the world, including
+            the United States, Australia, Spain, and the United Kingdom. He has
+            also worked with big brands such as Adobe, Sony, and Disney.
+          </p>
+          <p>
+            Adrian is passionate about design and loves creating beautiful and
+            functional designs that help his clients achieve their goals. He is
+            always looking for new challenges and opportunities to grow as a
+            designer.
+          </p>
+
+          <div class="awards">
+            <h2>Awards</h2>
+            <div class="items list">
+              <div class="item">
+                <h3>Lorem ipsum sodlor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, nunc non tincidunt.
+                </p>
+              </div>
+              <div class="item">
+                <h3>Lorem ipsum sodlor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, nunc non tincidunt.
+                </p>
+              </div>
+              <div class="item">
+                <h3>Lorem ipsum sodlor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, nunc non tincidunt.
+                </p>
+              </div>
+              <div class="item">
+                <h3>Lorem ipsum sodlor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, nunc non tincidunt.
+                </p>
+              </div>
+              <div class="item">
+                <h3>Lorem ipsum sodlor</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  malesuada, nunc non tincidunt.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="socials">
+          <a href="#">X</a>
+          <a href="#">LI</a>
+          <a href="#">FB</a>
+          <a href="#">IG</a>
+          <a href="#">YT</a>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const picture = document.querySelector(".picture");
+        const moreDetails = document.querySelector(".more-details");
+        const article = document.querySelector(".article");
+
+        moreDetails.addEventListener("click", () => {
+          article.classList.toggle("active");
+          picture.classList.toggle("small");
+        });
+      });
+    </script>
+  </body>
+</html>
