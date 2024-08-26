@@ -100,7 +100,6 @@ get_header();
     padding-left: 5%;
     padding-right: 10%;
     transition: all .4s ease-in-out;
-    top: 100%;
     position: relative;
     opacity: 0
 }
@@ -139,10 +138,6 @@ get_header();
 }
 
 .detail-content .socials {
-    position: absolute;
-    right: 12px;
-    bottom: 20px;
-    display: grid;
     gap: 8px
 }
 
@@ -178,6 +173,7 @@ get_header();
     .detail-content .article {
         margin-left: auto;
         transform: translateY(100%);
+        padding-top: 21vh;
     }
 
     .detail-content .article.active {
@@ -185,6 +181,13 @@ get_header();
         opacity: 1;
         transform: translateY(0);
 
+    }
+
+    .detail-content .socials {
+        position: fixed;
+        right: 30px;
+        bottom: 30px;
+        display: grid;
     }
 
 }
