@@ -15,8 +15,7 @@ get_header();
 }
 
 .detail-content {
-    min-height: 100dvh;
-    overflow: auto;
+
     width: 100%;
     margin-inline: auto;
     position: relative;
@@ -172,11 +171,13 @@ get_header();
     .detail-content .article {
         margin-left: auto;
         transform: translateY(100%);
+        height: 100vh;
+        overflow: auto;
 
     }
 
     .detail-content .article.active {
-        top: 0;
+
         opacity: 1;
         transform: translateY(0);
 
