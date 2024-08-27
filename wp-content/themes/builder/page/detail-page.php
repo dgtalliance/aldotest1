@@ -80,7 +80,7 @@ get_header();
 
 .detail-content .picture .more-details {
     position: absolute;
-    right: -40px;
+    right: -56px;
     bottom: 22px;
     font-weight: bold;
     font-size: .8rem;
@@ -315,6 +315,8 @@ document.addEventListener("DOMContentLoaded", () => {
     moreDetails.addEventListener("click", () => {
         article.classList.toggle("active");
         picture.classList.toggle("small");
+        moreDetails.querySelector("span").textContent = article.classList.contains("active") ?
+            "- LESS" : "+ MORE";
     });
 });
 </script>
